@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nightly Integration Tests Dashboard',
-  url: 'https://mspnp.github.io',
+  url: 'https://iwate.github.io',
   baseUrl: '/intern-js-pipeline/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -69,7 +69,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/mspnp/intern-js-pipeline',
+            href: 'https://github.com/iwate/intern-js-pipeline',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
