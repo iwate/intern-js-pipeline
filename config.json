@@ -1,3 +1,6 @@
 {
-    "organization" : "iwate"
+    "organization" : "iwate",
+    "repos": [
+        "saas-challenge"
+    ]
 }
