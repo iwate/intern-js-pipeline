@@ -2,7 +2,7 @@ import axios from "axios";
 
 //gets list of repos from an org
 export const getRepos = async(org) => {
-    const link = "https://api.github.com/orgs/"+org+"/repos";
+    const link = "https://api.github.com/users/"+org+"/repos";
     const results = await axios.get(link,{
         headers: {
           }}
